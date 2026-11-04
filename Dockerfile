@@ -14,4 +14,4 @@ RUN lein uberjar
 EXPOSE 10000
 
 # Executa a aplicação
-CMD ["java", "-jar", "target/valderrama_api-0.1.0-SNAPSHOT-standalone.jar"]
+CMD ["java", "-jar", "target/uberjar/valderrama_api-0.1.0-SNAPSHOT-standalone.jar"]
