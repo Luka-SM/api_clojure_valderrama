@@ -1,5 +1,6 @@
 
 (ns valderrama_api.core
+  (:gen-class)
   (:require [ring.adapter.jetty :refer [run-jetty]]
             [ring.middleware.json :refer [wrap-json-body wrap-json-response]]
             [valderrama_api.routes :refer [app-routes]]))
