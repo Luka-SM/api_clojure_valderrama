@@ -31,7 +31,7 @@
 
 ;; INICIALIZAÇÃO DO SERVIDOR
 
-(defn -main []
+(defn -main [& args]
   (run-jetty
     (wrap-cors
       (-> app-routes
